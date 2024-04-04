@@ -16,6 +16,6 @@ app.get('/productos', (req, res) => {
   res.send('Productos: Producto 1, Producto 2, Producto 3');
 });
 
-app.listen(5000, () => {
-  console.log('Aplicación corriendo en el puerto 5000');
+app.listen(12900, () => {
+  console.log('Aplicación corriendo en el puerto 12900');
 });
